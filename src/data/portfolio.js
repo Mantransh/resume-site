@@ -1,7 +1,3 @@
-// ============================================================
-// PORTFOLIO DATA — Edit this file to customize your portfolio
-// ============================================================
-
 export const personal = {
   name: 'Mantransh Laata',
   title: 'Full-Stack Software Engineer',

@@ -1,9 +1,7 @@
 import { useInView } from '../hooks/useInView'
 import { about, personal } from '../data/portfolio'
 
-/**
- * About — bio paragraphs and stat highlights
- */
+
 export default function About() {
   const { ref, isInView } = useInView()
 
@@ -38,7 +36,7 @@ export default function About() {
               ))}
             </div>
 
-            {/* Current focus */}
+            
             <div className="mt-8 p-4 bg-surface-700 border-l-2 border-accent rounded-r-xl">
               <p className="text-sm font-mono text-accent mb-1">{'> Currently focused on'}</p>
               <p className="text-gray-300 text-sm">

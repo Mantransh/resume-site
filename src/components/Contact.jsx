@@ -18,7 +18,7 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault()
     setStatus('sending')
-    // Simulate sending — replace with your actual form handler (e.g. Formspree, EmailJS)
+    
     setTimeout(() => {
       setStatus('sent')
       setForm({ name: '', email: '', subject: '', message: '' })
